@@ -40,9 +40,11 @@ eessi_sets:
         overlay: eessi
         include_on:
           - linux-x86_64
-      - name: sys-libs/pam
-        exclude_on:
-          - macos-aarch64
-          - macos-x86_64
+      #- name: sys-libs/pam
+      #  exclude_on:
+      #    - macos-aarch64
+      #    - macos-x86_64
       #- name: sys-process/htop
       - name: sys-process/numactl
+      - name: dev-util/ninja
+      - name: dev-util/meson
